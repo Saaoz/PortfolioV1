@@ -14,14 +14,15 @@ import {
   mongodb,
   git,
   figma,
-  docker,
   cefim,
   idk,
-  carrent,
-  jobit,
+  codebackend,
+  forum,
   tripguide,
   threejs,
   cloudshot,
+  prisma,
+  sql,
 } from "../assets";
 
 export const navLinks = [
@@ -92,6 +93,14 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "Prisma",
+    icon: prisma,
+  },
+  {
+    name: "MySql",
+    icon: sql,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
@@ -107,10 +116,7 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
@@ -186,58 +192,37 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Blog Back-end",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This repository contains the backend for a blog, featuring full CRUD capabilities (create, read, update, delete) and a search function, along with authentication. It uses Prisma to secure all data in transit, ensuring efficient and secure management of information. This project demonstrates my ability to integrate advanced technologies for backend development.",
+    tags: [
+      {
+        name: "NodeJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: codebackend,
+    source_code_link: "https://github.com/Saaoz/Forum_B",
+  },
+  {
+    name: "Nexus",
+    description:
+      "This repository contains an ambitious small forum, currently at version 0.1, which will provide updates on all games, servers, tech, and other new developments, all centralized in a single forum.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "Not defined",
         color: "green-text-gradient",
       },
       {
@@ -245,7 +230,28 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: forum,
+    source_code_link: "https://github.com/Saaoz/NexusForum",
+  },
+  {
+    name: "not defined",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "not defined",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "not defined",
+        color: "green-text-gradient",
+      },
+      {
+        name: "not defined",
+        color: "pink-text-gradient",
+      },
+    ],
+    image : codebackend,
     source_code_link: "https://github.com/",
   },
 ];

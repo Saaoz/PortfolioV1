@@ -20,13 +20,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import prisma from "./tech/prisma.png"
+import sql from "./tech/mysql.svg"
 
 import idk from "./company/idk.png";
 import cefim from "./company/cefim.png";
 import cloudshot from "./company/cloudshot.svg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import codebackend from "./codebackend.png";
+import forum from "./forum.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -39,7 +41,6 @@ export {
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
@@ -54,7 +55,9 @@ export {
   idk,
   cefim,
   cloudshot,
-  carrent,
-  jobit,
+  codebackend,
+  forum,
   tripguide,
+  prisma,
+  sql,
 };
